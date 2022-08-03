@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --grey: #333333;
+    --lgrey: #bbbbbb;
+    --orange: #e37916;
+}
+
+
+
+
+.logo__image {
+    width: 200px;
+    margin: 2rem;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover {
+    color: var(--orange);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.swiper__container {
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    max-width:200px;
+    max-height:200px;
+    margin: 0 auto;
+}
+
+.name {
+    height: 6rem;
+}
+
+.button_link {
+    padding: 20px 60px; 
+
+}
+
+.button_link a {
+    text-decoration: none;
+    background-color: var(--orange);
+    padding: 20px 60px; 
+    color: white;
+    border-radius: 5px;
+    border: 1px solid var(--orange);
+}
+
+.button_link a:hover {
+    background-color: var(--grey);
+    border-color: var(--grey);
+    color: white;
+}
+
+.button_link_for_dark_bg a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 44, 44);
+}
+
+
+.button_link_light a {
+    background-color: white;
+    border-color: var(--grey);
+    color: var(--grey);
+}
+
+.button_link_light a:hover {
+    background-color: white;
+    color: var(--orange);
+    border-color: #e37916;
+}
+
+.button_link_light_disabled a, .button_link_light_disabled a:hover {
+    border-color: var(--lgrey);
+    color: var(--lgrey);
+    cursor: alias;
+}
+
+
+footer {
+    background-color: var(--grey);
+    padding-top:10rem;
+    padding-bottom: 10rem;
+}
